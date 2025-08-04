@@ -138,6 +138,29 @@ Security
 
  Sanitization: Sanitize user inputs to avoid security vulnerabilities (e.g., SQL Injection, XSS).
 
+ 1. Backend Setup (2-3 hours)
+Set up Express: Initialize your Express backend and create the basic project structure.
+
+Set up MongoDB: Connect your backend to MongoDB Atlas and configure the .env file for secrets.
+
+Create Models:
+
+User model (authentication with bcrypt).
+
+Post and Comment models (with relationships to the User model).
+
+Authentication:
+
+User registration and login endpoints with JWT authentication.
+
+Authorization middleware for protected routes.
+
+API Endpoints:
+
+CRUD endpoints for posts (create, read, update, delete).
+
+CRUD endpoints for comments (create, read).
+
 Rate Limiting (Optional)
 
  Rate Limiting: Implement rate limiting to prevent abuse of the API (e.g., too many login attempts). You can use libraries like express-rate-limit.
